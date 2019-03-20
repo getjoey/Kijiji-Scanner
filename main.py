@@ -13,7 +13,7 @@ priceRange = [150,500]
 k = KijijiParser(url,keyWords,priceRange)
 k.runParser() #Run the search
 
-Print("done")
+print("done")
 
 #Here is some sample output 
 #------------------------
