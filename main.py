@@ -7,7 +7,7 @@ url = 'https://www.kijiji.ca/b-ville-de-montreal/ps4/k0l1700281?dc=true'
 
 #HERE WE PUT keyWords and price range
 keyWords = ["ps4","playstation", "4", "station", "console"]  #as long as 1 key word shows up itll be a hit!
-priceRange = [250,500] 
+priceRange = [150,500] 
 
 #Create the object
 k = KijijiParser(url,keyWords,priceRange)
